@@ -13,7 +13,7 @@ Description: RisingTide Systems LIO target Python API (Documentation).
 
 Package: python-rtslib-fb
 Architecture: all
-Depends: ${python:Depends}, ${misc:Depends}
+Depends: ${python:Depends}, ${misc:Depends}, python-pyudev
 Provides: ${python:Provides}
 Suggests: python-rtslib-fb-doc
 Conflicts: python-rtslib, rtsadmin-frozen
@@ -21,7 +21,7 @@ Description: RisingTide Systems LIO target Python 2 API (free branch).
 
 Package: python3-rtslib-fb
 Architecture: all
-Depends: ${python3:Depends}, ${misc:Depends}
+Depends: ${python3:Depends}, ${misc:Depends}, python3-pyudev
 Suggests: python-rtslib-fb-doc
 Conflicts: lio-utils
 Replaces: targetcli-fb (<< 2.1.fb32)
